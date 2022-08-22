@@ -13,8 +13,7 @@ public class FormsViewPage extends BasePage{
     @FindBy(className = "fdx-ellipsis")
     List<WebElement> medicalHistory;
 
-
-    //Constructor that will be automatically called as soon as the object of the class is created
+    //Constructor with Webdriver as parameter
     public FormsViewPage(WebDriver driver) {
         super.driver = driver;
         PageFactory.initElements(driver, this);

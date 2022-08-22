@@ -13,7 +13,7 @@ public class SignoutPage extends BasePage {
     @FindBy(xpath ="//*[@id=\"menuUserLogout\"]/span/p")
     WebElement menUserLogout;
 
-    //Constructor that will be automatically called as soon as the object of the class is created
+    //Constructor with Webdriver as parameter
     public SignoutPage(WebDriver driver) {
         super.driver = driver;
         PageFactory.initElements(driver, this);
