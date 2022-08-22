@@ -10,7 +10,7 @@ public class ViewMenuPage extends BasePage{
     @FindBy(id = "fdxMdbContainerListItem0View")
     WebElement view;
 
-    //Constructor that will be automatically called as soon as the object of the class is created
+    //Constructor with Webdriver as parameter
     public ViewMenuPage(WebDriver driver) {
         super.driver = driver;
         PageFactory.initElements(driver, this);

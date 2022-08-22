@@ -10,8 +10,7 @@ public class MedicalHistoryPage extends BasePage{
     @FindBy(id = "switchEditMode")
     WebElement editItem;
 
-
-    //Constructor that will be automatically called as soon as the object of the class is created
+    //Constructor with Webdriver as parameter
     public MedicalHistoryPage(WebDriver driver) {
         super.driver = driver;
         PageFactory.initElements(driver, this);

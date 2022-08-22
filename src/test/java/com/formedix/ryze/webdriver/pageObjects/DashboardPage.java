@@ -10,7 +10,7 @@ public class DashboardPage extends BasePage {
     @FindBy(xpath = "//*[@id=\"menuMdb\"]/fdx-main-nav-item/div")
     WebElement menuMdb;
 
-    //Constructor that will be automatically called as soon as the object of the class is created
+    //Constructor with Webdriver as parameter
     public DashboardPage(WebDriver driver) {
         super.driver = driver;
         PageFactory.initElements(driver, this);

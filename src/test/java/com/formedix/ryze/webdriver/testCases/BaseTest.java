@@ -73,6 +73,5 @@ public abstract class BaseTest {
     public void signout(SignoutPage signoutPage){
         signoutPage.clickMenUser();
         signoutPage.clickMenUserLogout();
-        System.out.println("Logged Out Successfully!");
     }
 }

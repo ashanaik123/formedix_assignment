@@ -10,7 +10,7 @@ public class RepositoryPage extends BasePage {
     @FindBy(id = "menuMdbStudies")
     WebElement menuMdbStudies;
 
-    //Constructor that will be automatically called as soon as the object of the class is created
+    //Constructor with Webdriver as parameter
     public RepositoryPage(WebDriver driver) {
         super.driver = driver;
         PageFactory.initElements(driver, this);

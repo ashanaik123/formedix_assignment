@@ -22,7 +22,7 @@ public class LoginPage extends BasePage{
     @FindBy(xpath = "//*[@id=\"signInFormFeedback\"]/div[2]")
     WebElement signinError;
 
-    //Constructor that will be automatically called as soon as the object of the class is created
+    //Constructor with Webdriver as parameter
     public LoginPage(WebDriver driver) {
         super.driver = driver;
         PageFactory.initElements(driver, this);
